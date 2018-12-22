@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Actividad Fisica</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+
+    <!--LIBRERIAS CSS DE MTERIALIZE-->
+    <link rel="stylesheet" href="/bower_components/materialize/dist/css/materialize.css" />    
+    <link rel="stylesheet" href="/bower_components/materialize/extras/noUiSlider/nouislider.css">
+    <!--ICONOS DE MATERIALIZE-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <div id="menu"></div>
+    <div id="appContent"></div>
+    <div id="footer"></div>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/chart.js/dist/Chart.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="/bower_components/materialize/dist/js/materialize.js"></script>    
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/materialize/extras/noUiSlider/nouislider.js"></script>
+
+    <!--TEMPLATES-->
+   
+    <script src="templates/actividadFisica.js"></script>
+    <script src="templates/tablaActividadFisica.js"></script>
+    <script src="templates/dashboard.js"></script>
+    <script src="templates/pasos.js"></script>
+    <script src="templates/tablaPasosDados.js"></script>
+    <script src="templates/sueno.js"></script>
+    <script src="templates/tablaSuenoDatos.js"></script>
+    <script src="templates/retos.js"></script>
+    <script src="templates/content.js"></script>
+    
+    <script src="templates/menu.js"></script>
+    <script src="templates/footer.js"></script>
+    <!-- build:js scripts/main.js y menu.js-->
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

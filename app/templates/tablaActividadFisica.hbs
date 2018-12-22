@@ -1,0 +1,27 @@
+<table class="bordered responsive-table">
+	<thead class="black-text">
+		<tr>
+			<th></th>
+			<th>Deporte</th>
+			<th>Tiempo</th>
+			<th>Distancia</th>
+			<th>Calorias</th>
+			<th>Fecha</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each activity}}
+		<tr>
+			<td>
+				<input type="checkbox" id="productSelection{{@index}}" class="filled-in primaryCheckbox tableCheckbox">
+				<label for="productSelection{{@index}}"></label>
+			</td>
+			<td>{{deporte}}</td>
+			<td>{{tiempo}}</td>
+			<td>{{distancia}}</td>
+			<td>{{calorias}}</td>
+			<td>{{fecha}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>

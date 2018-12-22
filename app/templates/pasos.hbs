@@ -1,0 +1,54 @@
+<div class="row">
+	<div class="col s12 m3 l3 hide-on-small-only">
+		<div class="card">
+			<div class="card-content">
+				<span class="card-title center">Promedio Semanal</span>
+				<ul>
+					<li><b>No pasos: </b>30000</li>
+					<li><b>Distancia: </b>3km</li>
+					<li><b>Rendimiento: </b>Alto</li>
+					<li><b>Avance:</b> Mejoró</li>
+				</ul>
+			</div>		
+		</div>
+	</div>
+	<div class="col s12 m9 l9">
+		<div class="card">
+			<div class="card-content">
+				<span class="card-title"><i class="material-icons">directions_walk </i>Iniciar Caminata</span>
+				<div class="row">
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="fecha" class="datepicker">
+						<label for="fecha">Fecha</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="pasos" disabled>
+						<label for="pasos">Pasos</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="distanciaP" disabled>
+						<label for="distanciaP">Distancia</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="caloriasP" disabled>
+						<label for="caloriasP">Calorias</label>
+					</div>					
+					<div class="col s12 m6 l4 input-field">
+						<a href="#" class="btn-floating btn-large waves-effect light-blue accent-2"><i class="material-icons">play_arrow</i></a>
+						<a href="#" class="btn-floating btn-large waves-effect red"><i class="material-icons">stop</i></a>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+<div class="row hide-on-small-only">
+	<div class="card col s12 m12 l12">
+		<div class="card-content">			
+			<div id="tablaPasos"></div>
+			<div class="row right">
+				<a class="btn-large waves-effect green accent-4 deleteButton" onclick="alert('Registro Eliminado!')">Eliminar</a>
+			</div>
+		</div>		
+	</div>
+</div>

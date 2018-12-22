@@ -1,0 +1,72 @@
+// bower:scss
+// endbower
+ 
+@import 'menu';
+$colorPrimario: #FF4081;
+$colorEnfasis: #15B223;
+.mainContent{
+  padding-left: 300px;
+  @media screen and (max-width: 992px){
+    padding-left: 0px;
+  }
+}
+.page-title{
+  padding-left: 20px;
+  font-size: 24px;
+}
+.page-footer{
+  padding-left: 300px;
+  padding-top: 10px;
+  line-height: 30px!important;
+  margin-top: 5%;
+  margin-bottom: 0px!important;
+  min-height: 90px!important;
+  height: auto!important;
+  @media screen and (max-width: 992px){
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+.paginationTable{
+  display: block;
+}
+.deleteButton{
+  margin-top: 3%;
+}
+.AddReto{
+  border-style: dashed;
+  border-color: #FFF143;
+}
+.retoAddIcon{
+  font-size: 70px!important;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.competidorCard{
+  padding: 0px;
+  @media screen and (max-width: 600px){
+    width: 300px!important;
+  }
+}
+.noBoxShadow{
+  box-shadow: none!important;
+}
+.input-field label {
+     color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #B21B50!important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid $colorPrimario!important;
+  box-shadow: 0 1px 0 0 $colorPrimario!important;
+}
+.picker__date-display {
+    text-align: left;
+    background-color: #B21B50!important;
+    color: #fff;
+    padding: 18px;
+    font-weight: 300;
+}

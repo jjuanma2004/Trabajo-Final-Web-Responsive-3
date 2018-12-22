@@ -1,0 +1,22 @@
+<ul id="sideMenu" class="side-nav fixed blue-grey lighten-2">
+	<li>
+		<div class="userView light-blue darken-1">
+			<a href="#!user">
+				<div class="circle grey darken-1"></div>
+				<p></p>
+			</a>
+			<a href="#!email">
+				<span class="white-text email">
+					<b>usuario@domain.com</b> <i class="material-icons white-text right">arrow_drop_down</i>
+				</span>
+			</a>
+		</div>
+	</li>
+	{{#each menuItems}}
+	<li class="sideMenuItem">
+		<a href="#" onclick="changeState('{{state}}')" id="{{state}}Link" class="menuLinks">
+			<i class="material-icons white-text">{{icon}}</i><span class="white-text">{{item}}</span>
+		</a>
+	</li>
+	{{/each}}
+</ul>

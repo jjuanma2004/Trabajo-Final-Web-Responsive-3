@@ -1,0 +1,61 @@
+<div class="row">
+	<div class="col s12 m3 l3 hide-on-small-only">
+		<div class="card">
+			<div class="card-content">
+				<span class="card-title center"><i class="material-icons">directions_bike</i> Deportes</span>
+				<ul>
+					<li>Baloncesto</li>
+					<li>Futbol</li>
+					<li>Patinaje</li>
+					<li>Caminatas</li>
+				</ul>
+			</div>		
+		</div>
+	</div>
+	<div class="col s12 m9 l9">
+		<div class="card">
+			<div class="card-content">
+				<span class="card-title">Iniciar Actividad Fisica</span>
+				<div class="row">
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="deporteAF" class="autocomplete">
+						<label for="deporteAF">Deporte</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="tiempo"  disabled>
+						<label for="tiempo">Tiempo</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="distancia" disabled>
+						<label for="distancia">Distancia</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="calorias" disabled>
+						<label for="calorias">Calorias</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<input type="text" id="fecha" class="datepicker">
+						<label for="fecha">Fecha</label>
+					</div>
+					<div class="col s12 m6 l4 input-field">
+						<a href="#" class="btn-floating btn-large waves-effect light-blue accent-2"><i class="material-icons">play_arrow</i></a>
+						<a href="#" class="btn-floating btn-large waves-effect red"><i class="material-icons">stop</i></a>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+<div class="row hide-on-small-only">
+	<div class="card col s12 m12 l12">
+		<div class="card-content">			
+			<div id="tablaActividad"></div>
+			<div class="paginationTable right">
+				<div class="row right">
+				<a class="btn-large waves-effect green accent-4 deleteButton" onclick="alert('Registro Eliminado!')">Eliminar</a>
+			</div>
+			</div>
+			
+		</div>		
+	</div>
+</div>
